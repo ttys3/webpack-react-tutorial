@@ -26,4 +26,9 @@ touch  ./src/index.js
 
 yarn build
 
+yarn add html-webpack-plugin html-loader --dev
+
+touch ./src/index.html
+
+yarn build
 ```
