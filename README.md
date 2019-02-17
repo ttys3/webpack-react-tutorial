@@ -15,11 +15,11 @@ yarn add webpack-cli --dev
 #add babel support
 yarn add @babel/core babel-loader @babel/preset-env @babel/preset-react --dev
 
-yarn add react react-dom --dev
+yarn add react react-dom
 
 mkdir -p src/js/components/{container,presentational}
 
-yarn add prop-types --dev
+yarn add prop-types
 
 
 touch  ./src/index.js
@@ -30,5 +30,5 @@ yarn add html-webpack-plugin html-loader --dev
 
 touch ./src/index.html
 
-yarn build
+yarn build   hgnn
 ```
