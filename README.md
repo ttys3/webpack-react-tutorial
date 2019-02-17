@@ -21,4 +21,9 @@ mkdir -p src/js/components/{container,presentational}
 
 yarn add prop-types --dev
 
+
+touch  ./src/index.js
+
+yarn build
+
 ```
